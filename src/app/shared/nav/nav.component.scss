@@ -1,0 +1,13 @@
+.nav {
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  span {
+    margin-right: 20px;
+  }
+  .active-link {
+    //border: 1px solid white !important;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}

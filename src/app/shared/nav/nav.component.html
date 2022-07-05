@@ -1,0 +1,7 @@
+<mat-toolbar class="nav" color="primary">
+  <mat-toolbar-row>
+    <span><a [routerLink]="['/']">PerxTech</a></span>
+    <button mat-button [routerLink]="['/dashboard']" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Dashboard</button>
+    <button mat-button [routerLink]="['/dashboard/directive']" routerLinkActive="active-link">Directive</button>
+  </mat-toolbar-row>
+</mat-toolbar>
